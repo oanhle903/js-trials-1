@@ -119,7 +119,7 @@ function snakeToCamel(string) {
 //   > longestWordLength(['hello', 'world']);
 //   5
 //
-//   > longestWordLength(['jellyfish', 'zebra']);
+//   > longestWordLength([ 'zebra', 'jellyfish']);
 //   9
 function longestWordLength(words) {
   let longest = words[0].length;
